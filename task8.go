@@ -5,8 +5,8 @@ import ("fmt")
 
 func main () {
 	time := 20
-	if time < 10 {
-		fmt.Println("Good morming")
+	if time <= 10 {
+		fmt.Println("Good morning")
 	} else if time < 20 {
 		fmt.Println("Good day")
 	} else {
